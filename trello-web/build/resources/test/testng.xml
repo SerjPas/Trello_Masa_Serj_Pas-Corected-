@@ -9,6 +9,8 @@
             <class name="com.telran.tests.test.TestCreateBoard" />
             <class name="com.telran.tests.test.TestDeleteTeam" />
             <class name="com.telran.tests.test.TestTeamCreation" />
+            <class name="com.telran.tests.test.TestDeleteBoard" />
+
         </classes>
     </test>
 </suite>

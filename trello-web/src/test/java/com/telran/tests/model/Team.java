@@ -1,16 +1,16 @@
 package com.telran.tests.model;
 
 public class Team {
-    private final String teamname;
+    private final String teamName;
     private final String description;
 
-    public Team(String teamname, String description) {
-        this.teamname = teamname;
+    public Team(String teamName, String description) {
+        this.teamName = teamName;
         this.description = description;
     }
 
-    public String getTeamname() {
-        return teamname;
+    public String getTeamName() {
+        return teamName;
     }
 
     public String getDescription() {

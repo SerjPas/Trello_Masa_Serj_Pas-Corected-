@@ -12,6 +12,7 @@ public class TestDeleteBoard extends TestBase {
 //    }
     @Test
     public void testBoardDeletion() throws InterruptedException {
+        int beforeTestBoardCount = app.getBoard().getBoardsCount();
         app.getSession().pause(2000);
         app.getBoard().clickOnFirstBoard();
         app.getBoard().clickOnMoreMenuButton();
@@ -20,5 +21,7 @@ public class TestDeleteBoard extends TestBase {
         app.getBoard().clickOnPermanentlyDeleteBoardButton();
         app.getBoard().clickOnSubmitDeleteBoardButton();
         app.getHeader().clickOnHomeButtonOnHeader();
+        int afterTestBoardCount = app.getBoard().getBoardsCount();
+        System.out.println("Boards before deleting: " + beforeTestBoardCount + "\n" + "Boards after deleting: " + afterTestBoardCount);
     }
 }

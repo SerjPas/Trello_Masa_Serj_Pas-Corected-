@@ -90,7 +90,8 @@ public class TeamHelper extends BaseHelper {
     }
 
     public void fillTeamCreationForm(Team team) {
-        new Team("MASA -" + System.currentTimeMillis()%100, "");
+        type(By.xpath("//input[@id='org-display-name']"), team.getTeamName());
+        type(By.xpath("//*[@name='desc']"), team.getDescription());
 
 
     }
