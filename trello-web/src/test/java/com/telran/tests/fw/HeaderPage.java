@@ -3,14 +3,15 @@ package com.telran.tests.fw;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HeaderPage extends  HelperBase{
+public class HeaderPage extends BaseHelper {
   public HeaderPage(WebDriver driver) {
     super(driver);
   }
 
   public void clickOnHomeButtonOnHeader() throws InterruptedException {
-    pause(10000);
+    pause(1000);
     click(By.cssSelector("a [name=house]"));
+    pause(1000);
     click(By.cssSelector("a [name=house]"));
   }
 

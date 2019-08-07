@@ -1,25 +1,25 @@
 package com.telran.tests.test;
 
+import com.telran.tests.fw.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-public class CreateTeamTests extends  TestBase{
+public class TestCreateTeamFromHeder extends TestBase {
   @Test
   public void createTeamFromheaderTest() throws InterruptedException {
 
-    int before = app.getTeam().getTeamsCount();
+    int beforeTeamCreation = app.getTeam().getTeamsCount();
 
     app.getHeader().clickOnPlusButtonOnHeader();
     app.getTeam().selectCreateTeamFromDropDown();
-    app.getTeam().fillTeamForm("M-" + System.currentTimeMillis(), "description");
+    app.getTeam().fillTeamForm("Masa" + System.currentTimeMillis()%100, "description");
     app.getTeam().confirmTeamCreationButton();
     app.getHeader().clickOnHomeButtonOnHeader();
 
-    int after = app.getTeam().getTeamsCount();
-
-    Assert.assertEquals(after, before+1 );
+    int afterTeamCreation = app.getTeam().getTeamsCount();
+    System.out.println("Teams before creation: " + beforeTeamCreation + " \n " + "Teams after creation: " + afterTeamCreation);
+    Assert.assertEquals(afterTeamCreation, beforeTeamCreation+1 );
   }
 
   @AfterClass

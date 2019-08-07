@@ -16,6 +16,7 @@ public class ApplicationManager {
   public void init() throws InterruptedException {
     driver = new ChromeDriver();
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    driver.manage().window().maximize(); // full size screen
 
     driver.navigate().to("https://trello.com");
     session = new SessionHelper(driver);
@@ -23,12 +24,12 @@ public class ApplicationManager {
     team = new TeamHelper(driver);
     header = new HeaderPage(driver);
 
-    session.login("elena.telran@yahoo.com", "12345.com");
+    session.login("passergiy@gmail.com", "7s9guYtfP7DRH5M");
   }
 
 
   public void stop() {
-    driver.quit();
+   // driver.quit();
   }
 
   public SessionHelper getSession() {

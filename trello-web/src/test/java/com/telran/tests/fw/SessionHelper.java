@@ -3,7 +3,7 @@ package com.telran.tests.fw;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class SessionHelper  extends  HelperBase{
+public class SessionHelper  extends BaseHelper {
 
 
   public SessionHelper(WebDriver driver) {
@@ -14,7 +14,10 @@ public class SessionHelper  extends  HelperBase{
     clickOnLoginButton();
     fillUserForm(email, password);
     confirmLoginButton();
-    pause(10000);
+    pause(1000);
+  }
+  public boolean isUserLoggedIn() {
+    return isElementsPresent(By.cssSelector(".js-open-header-member-menu"));
   }
 
   public void confirmLoginButton() {
@@ -24,8 +27,6 @@ public class SessionHelper  extends  HelperBase{
   public void fillUserForm(String email, String password) {
     type( By.id("user"), email);
     type(By.id("password"),password);
-
-
   }
 
   public void clickOnLoginButton() {
@@ -47,7 +48,5 @@ public class SessionHelper  extends  HelperBase{
     click(By.cssSelector(".js-open-header-member-menu"));
   }
 
-  public boolean isUserLoggedIn() {
-    return isElementsPresent(By.cssSelector(".js-open-header-member-menu"));
-  }
+
 }
