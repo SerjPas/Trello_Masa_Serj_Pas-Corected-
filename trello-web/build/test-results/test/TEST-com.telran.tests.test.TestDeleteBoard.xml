@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.tests.test.TestDeleteBoard" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-08T06:26:00" hostname="Zateynik" time="36.123">
+  <properties/>
+  <testcase name="testBoardDeletion" classname="com.telran.tests.test.TestDeleteBoard" time="36.123"/>
+  <system-out><![CDATA[Boards before deleting: 30
+Boards after deleting: 29
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

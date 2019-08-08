@@ -1,5 +1,6 @@
 package com.telran.tests.test;
 
+import com.telran.tests.model.Board;
 import com.telran.tests.fw.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -12,7 +13,7 @@ public class TestCreateBoard extends TestBase {
 int beforeCreation = app.getBoard().getBoardsCount();
     app.getHeader().clickOnPlusButtonOnHeader();
     app.getBoard().selectCreateBoardFromDropDown();
-    app.getBoard().fillBoardCreationForm("Masa2019-" + System.currentTimeMillis()%100);
+    app.getBoard().fillBoardCreationForm(new Board("Masa2019-" + System.currentTimeMillis() % 100));
     app.getBoard().confirmBoardCreation();
     app.getHeader().clickOnHomeButtonOnHeader();
 
