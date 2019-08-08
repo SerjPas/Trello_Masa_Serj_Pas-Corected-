@@ -2,6 +2,9 @@ package com.telran.tests.fw;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 
 public class SessionHelper  extends BaseHelper {
 
@@ -48,5 +51,8 @@ public class SessionHelper  extends BaseHelper {
     click(By.cssSelector(".js-open-header-member-menu"));
   }
 
-
+  public void moveToImage(){
+    WebElement webElement = driver.findElement(By.xpath(" "));
+    new Actions(driver).moveToElement(webElement).click().perform();
+  }
 }

@@ -2,53 +2,73 @@ package com.telran.tests.fw;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-  SessionHelper session;
-  BoardHelper board;
-  TeamHelper team;
-  HeaderPage header;
+    String browser;
+    SessionHelper session;
+    BoardHelper board;
+    TeamHelper team;
+    HeaderPage header;
 
-  WebDriver driver;
+    WebDriver driver;
 
-  public void init() throws InterruptedException {
-    driver = new ChromeDriver();
-    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    driver.manage().window().maximize(); // full size screen
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
 
-    driver.navigate().to("https://trello.com");
-    session = new SessionHelper(driver);
-    board = new BoardHelper(driver);
-    team = new TeamHelper(driver);
-    header = new HeaderPage(driver);
+    public void init() throws InterruptedException {
 
-    session.login("passergiy@gmail.com", "7s9guYtfP7DRH5M");
-  }
+        if (browser.equals(BrowserType.CHROME)) {
+            driver = new ChromeDriver();
+        } else if (browser.equals(BrowserType.FIREFOX)) {
+            driver = new FirefoxDriver();
+        } else if (browser.equals(BrowserType.EDGE)) {
+            driver = new EdgeDriver();
+        }
+
+        else {
+            System.err.println("Unknown browser");
+        }
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize(); // full size screen
+
+        driver.navigate().to("https://trello.com");
+        session = new SessionHelper(driver);
+        board = new BoardHelper(driver);
+        team = new TeamHelper(driver);
+        header = new HeaderPage(driver);
+
+        session.login("passergiy@gmail.com", "7s9guYtfP7DRH5M");
+    }
 
 
-  public void stop() {
-    driver.quit();
-  }
+    public void stop() {
+        driver.quit();
+    }
 
-  public SessionHelper getSession() {
-    return session;
-  }
+    public SessionHelper getSession() {
+        return session;
+    }
 
-  public BoardHelper getBoard() {
-    return board;
-  }
+    public BoardHelper getBoard() {
+        return board;
+    }
 
-  public TeamHelper getTeam() {
-    return team;
-  }
+    public TeamHelper getTeam() {
+        return team;
+    }
 
-  public HeaderPage getHeader() {
-    return header;
-  }
+    public HeaderPage getHeader() {
+        return header;
+    }
 
-  public String getUrl() {
-    return driver.getCurrentUrl();
-  }
+    public String getUrl() {
+        return driver.getCurrentUrl();
+    }
 }

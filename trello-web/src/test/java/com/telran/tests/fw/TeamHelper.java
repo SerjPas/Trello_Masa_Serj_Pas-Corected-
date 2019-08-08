@@ -57,7 +57,7 @@ public class TeamHelper extends BaseHelper {
     public void createTeam() throws InterruptedException {
         header.clickOnPlusButtonOnHeader();
         selectCreateTeamFromDropDown();
-        fillTeamForm("Masa" + System.currentTimeMillis() % 100, "description");
+        fillTeamForm(new Team().setTeamName("Masa" + System.currentTimeMillis() % 100).setDescription("description"));
         confirmTeamCreationButton();
         header.clickOnHomeButtonOnHeader();
     }
@@ -66,9 +66,9 @@ public class TeamHelper extends BaseHelper {
         click(By.cssSelector("[data-test-id='header-create-team-submit-button']"));
     }
 
-    public void fillTeamForm(String teamName, String description) {
-        type(By.cssSelector("[data-test-id='header-create-team-name-input']"), teamName);
-        type(By.xpath("//*[@name='desc']"), description);
+    public void fillTeamForm(Team team) {
+        type(By.cssSelector("[data-test-id='header-create-team-name-input']"), team.getTeamName() );
+        type(By.xpath("//*[@name='desc']"), team.getDescription());
     }
 
     public void selectCreateTeamFromDropDown() {

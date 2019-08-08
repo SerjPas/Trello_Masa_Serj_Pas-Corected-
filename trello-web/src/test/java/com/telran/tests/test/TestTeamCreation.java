@@ -11,7 +11,7 @@ public class TestTeamCreation extends TestBase {
         int beforeTeamCreation = app.getTeam().getTeamsCount();
 
         app.getTeam().clickOnCreateATeam();
-        app.getTeam().fillTeamCreationForm(new Team("NewSuperTeam" + System.currentTimeMillis() % 100,"desc"));
+        app.getTeam().fillTeamCreationForm(new Team().setTeamName("NewSuperTeam" + System.currentTimeMillis() % 100).setDescription("desc"));
         app.getTeam().confirmCreate();
         app.getHeader().clickOnHomeButtonOnHeader();
         app.getSession().pause(1000);

@@ -8,6 +8,7 @@ public class BoardHelper extends BaseHelper {
     public BoardHelper(WebDriver driver) {
         super(driver);
     }
+    HeaderPage headerPage = new HeaderPage(driver);
 
     public void selectCreateBoardFromDropDown() {
         click(By.xpath("//*[@data-test-id='header-create-board-button']"));
@@ -23,7 +24,7 @@ public class BoardHelper extends BaseHelper {
 
     public void confirmBoardCreation() throws InterruptedException {
         click(By.cssSelector("[data-test-id='header-create-board-submit-button']"));
-        pause(15000);
+        pause(1000);
     }
 
 
@@ -33,8 +34,9 @@ public class BoardHelper extends BaseHelper {
     }
 
     public boolean isBoardPresent() {
-        return isElementPresent(By.xpath(""));
+        return isElementPresent(By.xpath("//*[@class='icon-lg icon-member']/../../..//li"));
     }
+
     public void clickOnPermanentlyDeleteBoardButton() {
         click(By.xpath("//a[@class='quiet js-delete']"));
     }
@@ -58,5 +60,19 @@ public class BoardHelper extends BaseHelper {
 
     public void clickOnBoardsOnHeader() {
         click(By.xpath("//span[@class='MEu8ZECLGMLeab']"));
+    }
+
+    public void cleanBoards() throws InterruptedException {
+        int count = getBoardsCount();
+        while (count > 3) {
+            clickOnFirstBoard();
+            clickOnMoreMenuButton();
+            clickOnMenuButtonCloseBoard();
+            clickOnSubmitDeleteBoardButton();
+            clickOnPermanentlyDeleteBoardButton();
+            clickOnSubmitDeleteBoardButton();
+            headerPage.clickOnHomeButtonOnHeader();
+            count = getBoardsCount();
+        }
     }
 }

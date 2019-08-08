@@ -1,15 +1,16 @@
 package com.telran.tests.test;
 import com.telran.tests.fw.TestBase;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
 public class TestDeleteBoard extends TestBase {
-//    @BeforeMethod
-//    public void precondition() throws InterruptedException {
-//        if(app.getBoard().isBoardPresent()){
-//            new TestCreateBoard().boardCreationTestFromHeader();
-//        }
-//    }
+    @BeforeMethod
+    public void precondition() throws InterruptedException {
+        if(app.getBoard().isBoardPresent()){
+            new TestCreateBoard().boardCreationTestFromHeader();
+        }
+    }
     @Test
     public void testBoardDeletion() throws InterruptedException {
         int beforeTestBoardCount = app.getBoard().getBoardsCount();

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.tests.test.TestDeleteTeam" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-08T11:48:22" hostname="Zateynik" time="4.856">
+  <properties/>
+  <testcase name="testTeamDeletion" classname="com.telran.tests.test.TestDeleteTeam" time="4.856"/>
+  <system-out><![CDATA[Teams before deleting: 3
+Teams after deleting: 2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

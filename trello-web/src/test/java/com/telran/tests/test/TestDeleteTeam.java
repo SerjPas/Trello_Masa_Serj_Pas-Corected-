@@ -27,6 +27,4 @@ public class TestDeleteTeam extends TestBase {
 
     Assert.assertEquals(afterTestTeamCount, beforeTestTeamCount - 1);
   }
-
-
 }
