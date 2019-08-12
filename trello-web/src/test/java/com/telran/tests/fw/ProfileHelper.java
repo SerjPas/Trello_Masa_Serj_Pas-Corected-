@@ -17,7 +17,7 @@ public class ProfileHelper extends BaseHelper {
         new Actions(driver).moveToElement(webElement).click().perform();
     }
 
-    public void attachPhotoToProfile(File file) {
+    public void attachPhotoToProfile(File file) throws InterruptedException {
         attach(By.xpath("//*[@name='file']"), file);
     }
     public void clickOnProfileAndVisibilityOnHeader() {

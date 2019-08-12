@@ -13,3 +13,7 @@ gradle-app.setting
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 .idea/workspace.xml
+*.jpg
+trello-web/src/test/logs/log-20190812T1357
+*.png
+*.jpg

@@ -1,10 +1,10 @@
 package com.telran.tests.fw;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 
 import java.io.File;
+import java.io.IOException;
 
 public class BaseHelper {
     WebDriver driver;
@@ -45,5 +45,14 @@ public class BaseHelper {
         Thread.sleep(millis);
     }
 
+    public void takeScreenShot() throws IOException {
+        /**
+         * записываем во временный файл наш скриншот
+         */
+        File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
+        File screenShot = new File("src/test/screenshots/screenshot" + System.currentTimeMillis() % 1000 + ".png");
+        Files.copy(tmp, screenShot);
+        System.out.println(" Screenshot name: " + screenShot.getName());
+    }
 }
