@@ -1,4 +1,4 @@
-package com.telran.tests.test;
+package com.telran.tests.fw;
 
 import com.telran.tests.model.Team;
 import org.testng.annotations.DataProvider;

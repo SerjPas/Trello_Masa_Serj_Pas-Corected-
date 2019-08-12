@@ -14,12 +14,14 @@ public class ApplicationManager {
     BoardHelper board;
     TeamHelper team;
     HeaderPage header;
+    ProfileHelper profileHelper;
 
     WebDriver driver;
 
     public ApplicationManager(String browser) {
         this.browser = browser;
     }
+
 
     public void init() throws InterruptedException {
 
@@ -29,9 +31,7 @@ public class ApplicationManager {
             driver = new FirefoxDriver();
         } else if (browser.equals(BrowserType.EDGE)) {
             driver = new EdgeDriver();
-        }
-
-        else {
+        } else {
             System.err.println("Unknown browser");
         }
 
@@ -43,13 +43,18 @@ public class ApplicationManager {
         board = new BoardHelper(driver);
         team = new TeamHelper(driver);
         header = new HeaderPage(driver);
+        profileHelper = new ProfileHelper(driver);
 
         session.login("passergiy@gmail.com", "7s9guYtfP7DRH5M");
     }
 
 
     public void stop() {
-        driver.quit();
+        //driver.quit();
+    }
+
+    public ProfileHelper getProfileHelper() {
+        return profileHelper;
     }
 
     public SessionHelper getSession() {

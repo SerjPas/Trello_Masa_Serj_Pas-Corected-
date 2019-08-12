@@ -1,5 +1,6 @@
 package com.telran.tests.test;
 
+import com.telran.tests.fw.DataProviders;
 import com.telran.tests.fw.TestBase;
 import com.telran.tests.model.Team;
 import org.testng.Assert;

@@ -18,4 +18,8 @@ public class HeaderPage extends BaseHelper {
   public void clickOnPlusButtonOnHeader() {
     click(By.cssSelector("[name=add]"));
   }
+  public void clickOnHeaderMemberMenuButton() {
+    click(By.cssSelector("[data-test-id=\"header-member-menu-button\"]"));
+ }
+
 }

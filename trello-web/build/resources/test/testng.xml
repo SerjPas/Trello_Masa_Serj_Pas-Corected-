@@ -10,7 +10,7 @@
             <class name="com.telran.tests.test.TestDeleteTeam" />
             <class name="com.telran.tests.test.TestTeamCreation" />
             <class name="com.telran.tests.test.TestDeleteBoard" />
-
+            <class name="com.telran.tests.test.TestChangeAvatar" />
         </classes>
     </test>
 </suite>
