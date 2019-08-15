@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.tests.test.TestChangeAvatar" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-12T10:57:49" hostname="Zateynik" time="4.581">
-  <properties/>
-  <testcase name="changeAvatarTest" classname="com.telran.tests.test.TestChangeAvatar" time="4.581"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

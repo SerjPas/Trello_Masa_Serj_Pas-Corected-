@@ -2,12 +2,15 @@ package com.telran.tests.fw;
 
 import com.google.common.io.Files;
 import org.openqa.selenium.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
 
 public class BaseHelper {
     WebDriver driver;
+    Logger logger = LoggerFactory.getLogger((BaseHelper.class));
 
     public BaseHelper(WebDriver driver) {
         this.driver = driver;
@@ -45,14 +48,15 @@ public class BaseHelper {
         Thread.sleep(millis);
     }
 
-    public void takeScreenShot() throws IOException {
+    public void takeScreenshot() throws IOException {
         /**
          * записываем во временный файл наш скриншот
          */
         File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-        File screenShot = new File("src/test/screenshots/screenshot" + System.currentTimeMillis() % 1000 + ".png");
-        Files.copy(tmp, screenShot);
-        System.out.println(" Screenshot name: " + screenShot.getName());
+        File screenshot = new File("src/test/screenshots/screenshot" + System.currentTimeMillis() + ".png");
+        Files.copy(tmp, screenshot);
+        logger.info("_____________________________________________________");
+        logger.info(" Screenshot name: " + screenshot.getName());
     }
 }

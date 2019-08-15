@@ -20,9 +20,9 @@ public void preconditions(){
     Assert.assertEquals(currentUrl, "https://trello.com/logged-out");
 
     app.getSession().clickOnLoginButton();
-    app.getSession().fillUserForm("passergiy@gmail.com", "7s9guYtfP7DRH5M");
+    app.getSession().fillUserForm("ppassergiy@gmail.com", "7s9guYtfP7DRH5M");
     app.getSession().confirmLoginButton();
-    app.getSession().pause(3000);
+    app.getSession().pause(2000);
     /**
      * Проверяем залогирован ли юзер - если "ДА" - вернет true
      */
