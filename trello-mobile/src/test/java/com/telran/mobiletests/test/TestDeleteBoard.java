@@ -1,9 +1,9 @@
 package com.telran.mobiletests.test;
 
+
 import com.telran.mobiletests.fw.TestBase;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 
 public class TestDeleteBoard extends TestBase {
     @BeforeMethod

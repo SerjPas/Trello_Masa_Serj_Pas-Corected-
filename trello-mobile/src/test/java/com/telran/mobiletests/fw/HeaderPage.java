@@ -1,10 +1,11 @@
 package com.telran.mobiletests.fw;
 
-import io.appium.java_client.AppiumDriver;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 public class HeaderPage extends BaseHelper {
-  public HeaderPage(AppiumDriver driver) {
+  public HeaderPage(WebDriver driver) {
     super(driver);
   }
 

@@ -1,6 +1,5 @@
 package com.telran.mobiletests.test;
 
-
 import com.telran.mobiletests.fw.DataProviders;
 import com.telran.mobiletests.fw.TestBase;
 import com.telran.mobiletests.model.Team;
@@ -12,12 +11,11 @@ import java.io.IOException;
 
 public class TestCreateTeamFromHeder extends TestBase {
     /**
-     *наш DataProvider лежит в класе DataProviders (DataProviders.class)
+     * наш DataProvider лежит в класе DataProviders (DataProviders.class)
      */
 
     @Test(dataProvider = "teams", dataProviderClass = DataProviders.class)
     public void createTeamFromHeaderTestWithDataProviderTest(Team team) throws InterruptedException, IOException {
-
         int beforeTeamCreation = app.getTeam().getTeamsCount();
 
         app.getHeader().clickOnPlusButtonOnHeader();

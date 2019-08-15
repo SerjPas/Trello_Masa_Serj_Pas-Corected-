@@ -1,11 +1,13 @@
 package com.telran.mobiletests.fw;
 
+
 import com.telran.mobiletests.model.Board;
-import io.appium.java_client.AppiumDriver;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 public class BoardHelper extends BaseHelper {
-    public BoardHelper(AppiumDriver driver) {
+    public BoardHelper(WebDriver driver) {
         super(driver);
     }
     HeaderPage headerPage = new HeaderPage(driver);

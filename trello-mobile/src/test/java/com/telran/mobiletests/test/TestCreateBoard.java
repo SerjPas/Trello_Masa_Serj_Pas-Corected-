@@ -6,8 +6,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
-import static com.telran.mobiletests.fw.TestBase.app;
-
 
 public class TestCreateBoard extends TestBase {
 

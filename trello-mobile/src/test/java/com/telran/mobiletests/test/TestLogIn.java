@@ -11,7 +11,7 @@ public class TestLogIn extends TestBase {
         app.getSession().logout();
     }
 
-    @Test(enabled = true)
+    @Test
     public void loginTest() throws InterruptedException {
         /**
          * проверяем что после лог аута Url = "https://trello.com/logged-out"
