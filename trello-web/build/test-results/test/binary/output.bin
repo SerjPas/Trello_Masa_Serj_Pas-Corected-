@@ -1,38 +1,346 @@
-Y13:05:54.881 [Test worker] INFO  - Start search element By.cssSelector: [href='/login']
-S13:05:54.892 [Test worker] INFO  - Element By.cssSelector: [href='/login'] found.
-E13:05:54.962 [Test worker] INFO  - Start search element By.id: user
-?13:05:56.207 [Test worker] INFO  - Element By.id: user found.
-E13:05:56.277 [Test worker] INFO  - Start search element By.id: user
-?13:05:56.290 [Test worker] INFO  - Element By.id: user found.
-E13:05:56.313 [Test worker] INFO  - Start search element By.id: user
-?13:05:56.324 [Test worker] INFO  - Element By.id: user found.
-I13:05:56.409 [Test worker] INFO  - Start search element By.id: password
-C13:05:56.420 [Test worker] INFO  - Element By.id: password found.
-I13:05:56.471 [Test worker] INFO  - Start search element By.id: password
-C13:05:56.484 [Test worker] INFO  - Element By.id: password found.
-I13:05:56.516 [Test worker] INFO  - Start search element By.id: password
-C13:05:56.527 [Test worker] INFO  - Element By.id: password found.
-F13:05:56.598 [Test worker] INFO  - Start search element By.id: login
-@13:05:56.608 [Test worker] INFO  - Element By.id: login found.
-e13:05:58.668 [Test worker] INFO  - Start search element By.cssSelector: .js-open-header-member-menu
-_13:06:08.721 [Test worker] INFO  - Element By.cssSelector: .js-open-header-member-menu found.
-x13:06:09.731 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
-Ð13:06:19.783 [Test worker] ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"nav.home-left-sidebar-container .js-react-root"}
-'  (Session info: chrome=76.0.3809.100)
-jFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-UBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-‹System info: host: 'ZATEYNIK', ip: '192.168.191.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
-5Driver info: org.openqa.selenium.chrome.ChromeDriver
-¤Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Passe\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
--Session ID: d736bf0abab74fb38fc96023d20dcc50
-^*** Element info: {Using=css selector, value=nav.home-left-sidebar-container .js-react-root}
-Z13:06:20.178 [Test worker] INFO  - _____________________________________________________
-R13:06:20.178 [Test worker] INFO  -  Screenshot name: screenshot1565863580168.png
-x13:06:21.181 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
-Ð13:06:31.209 [Test worker] ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"nav.home-left-sidebar-container .js-react-root"}
-'  (Session info: chrome=76.0.3809.100)
-jFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-UBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-‹System info: host: 'ZATEYNIK', ip: '192.168.191.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
-5Driver info: org.openqa.selenium.chrome.ChromeDriver
-¤Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Passe\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50460}, jav
+Y13:08:06.690 [Test worker] INFO  - Start search element By.cssSelector: [href='/login']
+S13:08:06.712 [Test worker] INFO  - Element By.cssSelector: [href='/login'] found.
+E13:08:06.790 [Test worker] INFO  - Start search element By.id: user
+?13:08:08.068 [Test worker] INFO  - Element By.id: user found.
+E13:08:08.112 [Test worker] INFO  - Start search element By.id: user
+?13:08:08.123 [Test worker] INFO  - Element By.id: user found.
+E13:08:08.150 [Test worker] INFO  - Start search element By.id: user
+?13:08:08.160 [Test worker] INFO  - Element By.id: user found.
+I13:08:08.236 [Test worker] INFO  - Start search element By.id: password
+C13:08:08.253 [Test worker] INFO  - Element By.id: password found.
+I13:08:08.326 [Test worker] INFO  - Start search element By.id: password
+C13:08:08.338 [Test worker] INFO  - Element By.id: password found.
+I13:08:08.360 [Test worker] INFO  - Start search element By.id: password
+C13:08:08.371 [Test worker] INFO  - Element By.id: password found.
+F13:08:08.456 [Test worker] INFO  - Start search element By.id: login
+@13:08:08.467 [Test worker] INFO  - Element By.id: login found.
+e13:08:10.527 [Test worker] INFO  - Start search element By.cssSelector: .js-open-header-member-menu
+_13:08:10.677 [Test worker] INFO  - Element By.cssSelector: .js-open-header-member-menu found.
+x13:08:11.685 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:08:11.728 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:08:11.729 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:08:11.751 [Test worker] INFO  - Element By.xpath: .//li found.
+T13:08:11.751 [Test worker] INFO  - Start search element By.cssSelector: [name=add]
+N13:08:11.768 [Test worker] INFO  - Element By.cssSelector: [name=add] found.
+r13:08:11.842 [Test worker] INFO  - Start search element By.xpath: //*[@data-test-id='header-create-team-button']
+l13:08:11.858 [Test worker] INFO  - Element By.xpath: //*[@data-test-id='header-create-team-button'] found.
+x13:08:11.920 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:11.939 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+x13:08:11.990 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:12.001 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+x13:08:12.023 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:12.035 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+U13:08:12.069 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:12.084 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+U13:08:12.142 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:12.162 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+U13:08:12.186 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:12.197 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+{13:08:12.227 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-submit-button']
+u13:08:12.240 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-submit-button'] found.
+X13:08:13.285 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:08:13.311 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+X13:08:14.380 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:08:14.405 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+x13:08:15.479 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:08:15.507 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:08:15.507 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:08:15.533 [Test worker] INFO  - Element By.xpath: .//li found.
+Teams before creation: 3 
+ Teams after creation: 4
+x13:08:16.537 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:08:16.567 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:08:16.568 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:08:16.579 [Test worker] INFO  - Element By.xpath: .//li found.
+T13:08:16.580 [Test worker] INFO  - Start search element By.cssSelector: [name=add]
+N13:08:16.593 [Test worker] INFO  - Element By.cssSelector: [name=add] found.
+r13:08:16.646 [Test worker] INFO  - Start search element By.xpath: //*[@data-test-id='header-create-team-button']
+l13:08:16.657 [Test worker] INFO  - Element By.xpath: //*[@data-test-id='header-create-team-button'] found.
+x13:08:16.709 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:16.722 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+x13:08:16.770 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:16.781 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+x13:08:16.804 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:16.814 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+U13:08:16.842 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:16.853 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+U13:08:16.911 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:16.922 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+U13:08:16.944 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:16.955 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+{13:08:16.987 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-submit-button']
+u13:08:16.997 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-submit-button'] found.
+X13:08:18.044 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:08:18.069 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+X13:08:19.120 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:08:19.132 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+x13:08:20.180 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:08:20.211 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:08:20.212 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:08:20.243 [Test worker] INFO  - Element By.xpath: .//li found.
+Teams before creation: 4 
+ Teams after creation: 5
+x13:08:21.247 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:08:21.259 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:08:21.259 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:08:21.271 [Test worker] INFO  - Element By.xpath: .//li found.
+T13:08:21.271 [Test worker] INFO  - Start search element By.cssSelector: [name=add]
+N13:08:21.282 [Test worker] INFO  - Element By.cssSelector: [name=add] found.
+r13:08:21.360 [Test worker] INFO  - Start search element By.xpath: //*[@data-test-id='header-create-team-button']
+l13:08:21.373 [Test worker] INFO  - Element By.xpath: //*[@data-test-id='header-create-team-button'] found.
+x13:08:21.442 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:21.459 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+x13:08:21.521 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:21.529 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+x13:08:21.551 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:21.560 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+U13:08:21.591 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:21.603 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+U13:08:21.672 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:21.684 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+U13:08:21.708 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:21.721 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+{13:08:21.753 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-submit-button']
+u13:08:21.763 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-submit-button'] found.
+X13:08:22.808 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:08:22.852 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+X13:08:23.908 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:08:23.934 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+x13:08:24.995 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:08:25.022 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:08:25.022 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:08:25.059 [Test worker] INFO  - Element By.xpath: .//li found.
+Teams before creation: 5 
+ Teams after creation: 6
+x13:08:26.060 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:08:26.085 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:08:26.086 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:08:26.107 [Test worker] INFO  - Element By.xpath: .//li found.
+T13:08:26.108 [Test worker] INFO  - Start search element By.cssSelector: [name=add]
+N13:08:26.120 [Test worker] INFO  - Element By.cssSelector: [name=add] found.
+r13:08:26.173 [Test worker] INFO  - Start search element By.xpath: //*[@data-test-id='header-create-team-button']
+l13:08:26.195 [Test worker] INFO  - Element By.xpath: //*[@data-test-id='header-create-team-button'] found.
+x13:08:26.261 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:26.279 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+x13:08:26.339 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:26.348 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+x13:08:26.370 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:26.380 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+U13:08:26.415 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:26.439 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+U13:08:26.490 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:26.500 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+U13:08:26.526 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:26.539 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+{13:08:26.570 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-submit-button']
+u13:08:26.585 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-submit-button'] found.
+X13:08:27.656 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:08:27.677 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+X13:08:28.737 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:08:28.748 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+x13:08:29.796 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:08:29.816 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:08:29.817 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:08:29.854 [Test worker] INFO  - Element By.xpath: .//li found.
+Teams before creation: 6 
+ Teams after creation: 7
+x13:08:30.856 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:08:30.875 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:08:30.875 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:08:30.886 [Test worker] INFO  - Element By.xpath: .//li found.
+T13:08:30.886 [Test worker] INFO  - Start search element By.cssSelector: [name=add]
+N13:08:30.902 [Test worker] INFO  - Element By.cssSelector: [name=add] found.
+r13:08:30.959 [Test worker] INFO  - Start search element By.xpath: //*[@data-test-id='header-create-team-button']
+l13:08:30.970 [Test worker] INFO  - Element By.xpath: //*[@data-test-id='header-create-team-button'] found.
+x13:08:31.043 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:31.059 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+x13:08:31.155 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:31.170 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+x13:08:31.193 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+r13:08:31.204 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+U13:08:31.667 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:31.677 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+U13:08:31.724 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:31.736 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+U13:08:31.760 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:08:31.772 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+{13:08:32.227 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-submit-button']
+u13:08:32.235 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-submit-button'] found.
+X13:08:33.291 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:08:33.303 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+X13:08:34.357 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:08:34.370 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+x13:08:35.419 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:08:35.432 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:08:35.433 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:08:35.464 [Test worker] INFO  - Element By.xpath: .//li found.
+Teams before creation: 7 
+ Teams after creation: 8
+	x13:08:36.466 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+	r13:08:36.492 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+	I13:08:36.492 [Test worker] INFO  - Start search element By.xpath: .//li
+	C13:08:36.518 [Test worker] INFO  - Element By.xpath: .//li found.
+	T13:08:36.518 [Test worker] INFO  - Start search element By.cssSelector: [name=add]
+	N13:08:36.543 [Test worker] INFO  - Element By.cssSelector: [name=add] found.
+	r13:08:36.602 [Test worker] INFO  - Start search element By.xpath: //*[@data-test-id='header-create-team-button']
+	l13:08:36.614 [Test worker] INFO  - Element By.xpath: //*[@data-test-id='header-create-team-button'] found.
+	x13:08:36.681 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+	r13:08:36.699 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+	x13:08:36.756 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+	r13:08:36.765 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+	x13:08:36.787 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-name-input']
+	r13:08:36.797 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-name-input'] found.
+	U13:08:36.894 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+	O13:08:36.904 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+	U13:08:36.958 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+	O13:08:36.968 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+	U13:08:36.991 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+	O13:08:37.003 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+	{13:08:37.077 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-team-submit-button']
+	u13:08:37.088 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-team-submit-button'] found.
+	X13:08:38.135 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+	R13:08:38.148 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+	X13:08:39.210 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+	R13:08:39.240 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+	x13:08:40.294 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+	r13:08:40.317 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+	I13:08:40.318 [Test worker] INFO  - Start search element By.xpath: .//li
+	C13:08:40.352 [Test worker] INFO  - Element By.xpath: .//li found.
+	Teams before creation: 8 
+	 Teams after creation: 9
+
+r13:09:03.353 [Test worker] INFO  - Start search element By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+
+l13:09:03.387 [Test worker] INFO  - Element By.xpath: //*[@class='icon-lg icon-member']/../../..//li found.
+
+T13:09:03.387 [Test worker] INFO  - Start search element By.cssSelector: [name=add]
+
+N13:09:03.404 [Test worker] INFO  - Element By.cssSelector: [name=add] found.
+
+s13:09:03.506 [Test worker] INFO  - Start search element By.xpath: //*[@data-test-id='header-create-board-button']
+
+m13:09:03.523 [Test worker] INFO  - Element By.xpath: //*[@data-test-id='header-create-board-button'] found.
+
+z13:09:03.610 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-board-title-input']
+
+t13:09:03.626 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-board-title-input'] found.
+
+z13:09:03.690 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-board-title-input']
+
+t13:09:03.699 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-board-title-input'] found.
+
+z13:09:03.722 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-board-title-input']
+
+t13:09:03.729 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-board-title-input'] found.
+
+_13:09:03.843 [Test worker] INFO  - Start search element By.cssSelector: button.W6rMLOx8U0MrPx
+
+Y13:09:03.857 [Test worker] INFO  - Element By.cssSelector: button.W6rMLOx8U0MrPx found.
+
+i13:09:03.927 [Test worker] INFO  - Start search element By.xpath: //nav[@class='SdlcRrTVPA8Y3K']//li[1]
+
+c13:09:03.944 [Test worker] INFO  - Element By.xpath: //nav[@class='SdlcRrTVPA8Y3K']//li[1] found.
+
+|13:09:04.004 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-create-board-submit-button']
+
+v13:09:04.020 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-create-board-submit-button'] found.
+
+X13:09:06.085 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+
+R13:09:06.103 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+
+X13:09:07.166 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+
+R13:09:07.192 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+
+r13:09:08.257 [Test worker] INFO  - Start search element By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+
+l13:09:08.328 [Test worker] INFO  - Element By.xpath: //*[@class='icon-lg icon-member']/../../..//li found.
+
+Boards before creation: 3 
+
+ Boards after creation: 4
+x13:09:14.154 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:09:14.177 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:09:14.177 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:09:14.205 [Test worker] INFO  - Element By.xpath: .//li found.
+m13:09:15.205 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='home-team-tab-name']
+g13:09:15.220 [Test worker] INFO  - Element By.cssSelector: [data-test-id='home-team-tab-name'] found.
+{13:09:15.292 [Test worker] INFO  - Start search element By.xpath: //*[@class='icon-gear icon-sm OiX3P2i2J92Xat']/../../..
+u13:09:15.888 [Test worker] INFO  - Element By.xpath: //*[@class='icon-gear icon-sm OiX3P2i2J92Xat']/../../.. found.
+W13:09:15.957 [Test worker] INFO  - Start search element By.cssSelector: .quiet-button
+Q13:09:16.491 [Test worker] INFO  - Element By.cssSelector: .quiet-button found.
+U13:09:16.547 [Test worker] INFO  - Start search element By.cssSelector: .js-confirm
+O13:09:16.563 [Test worker] INFO  - Element By.cssSelector: .js-confirm found.
+U13:09:16.563 [Test worker] INFO  - Start search element By.cssSelector: .js-confirm
+O13:09:16.579 [Test worker] INFO  - Element By.cssSelector: .js-confirm found.
+x13:09:17.674 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:09:17.706 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:09:17.706 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:09:17.726 [Test worker] INFO  - Element By.xpath: .//li found.
+Teams before deleting: 3
+Teams after deleting: 2
+x13:09:18.727 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:09:18.750 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:09:18.750 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:09:18.774 [Test worker] INFO  - Element By.xpath: .//li found.
+t13:09:18.774 [Test worker] INFO  - Start search element By.xpath: //span[@class='icon-add icon-sm OiX3P2i2J92Xat']
+n13:09:18.801 [Test worker] INFO  - Element By.xpath: //span[@class='icon-add icon-sm OiX3P2i2J92Xat'] found.
+c13:09:18.860 [Test worker] INFO  - Start search element By.xpath: //input[@id='org-display-name']
+]13:09:18.885 [Test worker] INFO  - Element By.xpath: //input[@id='org-display-name'] found.
+c13:09:18.974 [Test worker] INFO  - Start search element By.xpath: //input[@id='org-display-name']
+]13:09:18.983 [Test worker] INFO  - Element By.xpath: //input[@id='org-display-name'] found.
+c13:09:19.005 [Test worker] INFO  - Start search element By.xpath: //input[@id='org-display-name']
+]13:09:19.015 [Test worker] INFO  - Element By.xpath: //input[@id='org-display-name'] found.
+U13:09:19.098 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:09:19.111 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+U13:09:19.160 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:09:19.171 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+U13:09:19.199 [Test worker] INFO  - Start search element By.xpath: //*[@name='desc']
+O13:09:19.211 [Test worker] INFO  - Element By.xpath: //*[@name='desc'] found.
+Z13:09:19.260 [Test worker] INFO  - Start search element By.cssSelector: [value="Create"]
+T13:09:19.272 [Test worker] INFO  - Element By.cssSelector: [value="Create"] found.
+X13:09:20.315 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:09:20.328 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+X13:09:21.481 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:09:21.491 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+x13:09:23.538 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+r13:09:23.573 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+I13:09:23.573 [Test worker] INFO  - Start search element By.xpath: .//li
+C13:09:23.595 [Test worker] INFO  - Element By.xpath: .//li found.
+Teams before creation: 2 
+ Teams after creation: 3
+r13:09:31.633 [Test worker] INFO  - Start search element By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+l13:09:31.649 [Test worker] INFO  - Element By.xpath: //*[@class='icon-lg icon-member']/../../..//li found.
+r13:09:33.650 [Test worker] INFO  - Start search element By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+l13:09:33.674 [Test worker] INFO  - Element By.xpath: //*[@class='icon-lg icon-member']/../../..//li found.
+~13:09:33.767 [Test worker] INFO  - Start search element By.xpath: //a[@class='board-menu-navigation-item-link js-open-more']
+x13:09:33.909 [Test worker] INFO  - Element By.xpath: //a[@class='board-menu-navigation-item-link js-open-more'] found.
+€13:09:33.994 [Test worker] INFO  - Start search element By.xpath: //a[@class='board-menu-navigation-item-link js-close-board']
+z13:09:34.011 [Test worker] INFO  - Element By.xpath: //a[@class='board-menu-navigation-item-link js-close-board'] found.
+l13:09:34.070 [Test worker] INFO  - Start search element By.xpath: //input[@class='js-confirm full negate']
+f13:09:34.090 [Test worker] INFO  - Element By.xpath: //input[@class='js-confirm full negate'] found.
+a13:09:34.167 [Test worker] INFO  - Start search element By.xpath: //a[@class='quiet js-delete']
+[13:09:34.186 [Test worker] INFO  - Element By.xpath: //a[@class='quiet js-delete'] found.
+l13:09:34.249 [Test worker] INFO  - Start search element By.xpath: //input[@class='js-confirm full negate']
+f13:09:34.261 [Test worker] INFO  - Element By.xpath: //input[@class='js-confirm full negate'] found.
+X13:09:35.313 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:09:35.339 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+X13:09:36.398 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:09:36.417 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+r13:09:37.513 [Test worker] INFO  - Start search element By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+l13:09:37.527 [Test worker] INFO  - Element By.xpath: //*[@class='icon-lg icon-member']/../../..//li found.
+Boards before deleting: 4
+Boards after deleting: 3
+t13:09:37.990 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id="header-member-menu-button"]
+n13:09:38.012 [Test worker] INFO  - Element By.cssSelector: [data-test-id="header-member-menu-button"] found.
+u13:09:38.077 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-member-menu-profile']
+o13:09:38.093 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-member-menu-profile'] found.
+b13:09:40.170 [Test worker] INFO  - Start search element By.xpath: //div[@class='rsiNque2CCqtPE']
+\13:09:40.206 [Test worker] INFO  - Element By.xpath: //div[@class='rsiNque2CCqtPE'] found.
+U13:09:40.397 [Test worker] INFO  - Start search element By.xpath: //*[@name='file']
+O13:09:40.414 [Test worker] INFO  - Element By.xpath: //*[@name='file'] found.
+X13:09:43.454 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:09:43.478 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+X13:09:44.571 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+R13:09:44.585 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.

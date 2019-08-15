@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.tests.test.TestDeleteTeam" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-15T10:09:13" hostname="Zateynik" time="4.572">
+  <properties/>
+  <testcase name="testTeamDeletion" classname="com.telran.tests.test.TestDeleteTeam" time="4.572"/>
+  <system-out><![CDATA[13:09:14.154 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+13:09:14.177 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+13:09:14.177 [Test worker] INFO  - Start search element By.xpath: .//li
+13:09:14.205 [Test worker] INFO  - Element By.xpath: .//li found.
+13:09:15.205 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='home-team-tab-name']
+13:09:15.220 [Test worker] INFO  - Element By.cssSelector: [data-test-id='home-team-tab-name'] found.
+13:09:15.292 [Test worker] INFO  - Start search element By.xpath: //*[@class='icon-gear icon-sm OiX3P2i2J92Xat']/../../..
+13:09:15.888 [Test worker] INFO  - Element By.xpath: //*[@class='icon-gear icon-sm OiX3P2i2J92Xat']/../../.. found.
+13:09:15.957 [Test worker] INFO  - Start search element By.cssSelector: .quiet-button
+13:09:16.491 [Test worker] INFO  - Element By.cssSelector: .quiet-button found.
+13:09:16.547 [Test worker] INFO  - Start search element By.cssSelector: .js-confirm
+13:09:16.563 [Test worker] INFO  - Element By.cssSelector: .js-confirm found.
+13:09:16.563 [Test worker] INFO  - Start search element By.cssSelector: .js-confirm
+13:09:16.579 [Test worker] INFO  - Element By.cssSelector: .js-confirm found.
+13:09:17.674 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+13:09:17.706 [Test worker] INFO  - Element By.cssSelector: nav.home-left-sidebar-container .js-react-root found.
+13:09:17.706 [Test worker] INFO  - Start search element By.xpath: .//li
+13:09:17.726 [Test worker] INFO  - Element By.xpath: .//li found.
+Teams before deleting: 3
+Teams after deleting: 2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

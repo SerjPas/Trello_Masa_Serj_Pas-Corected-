@@ -17,3 +17,4 @@ gradle-app.setting
 trello-web/src/test/logs/log-20190812T1357
 *.png
 *.jpg
+*.log

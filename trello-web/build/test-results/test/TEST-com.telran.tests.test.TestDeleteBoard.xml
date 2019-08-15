@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.tests.test.TestDeleteBoard" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-15T10:09:30" hostname="Zateynik" time="6.895">
+  <properties/>
+  <testcase name="testBoardDeletion" classname="com.telran.tests.test.TestDeleteBoard" time="6.895"/>
+  <system-out><![CDATA[13:09:31.633 [Test worker] INFO  - Start search element By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+13:09:31.649 [Test worker] INFO  - Element By.xpath: //*[@class='icon-lg icon-member']/../../..//li found.
+13:09:33.650 [Test worker] INFO  - Start search element By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+13:09:33.674 [Test worker] INFO  - Element By.xpath: //*[@class='icon-lg icon-member']/../../..//li found.
+13:09:33.767 [Test worker] INFO  - Start search element By.xpath: //a[@class='board-menu-navigation-item-link js-open-more']
+13:09:33.909 [Test worker] INFO  - Element By.xpath: //a[@class='board-menu-navigation-item-link js-open-more'] found.
+13:09:33.994 [Test worker] INFO  - Start search element By.xpath: //a[@class='board-menu-navigation-item-link js-close-board']
+13:09:34.011 [Test worker] INFO  - Element By.xpath: //a[@class='board-menu-navigation-item-link js-close-board'] found.
+13:09:34.070 [Test worker] INFO  - Start search element By.xpath: //input[@class='js-confirm full negate']
+13:09:34.090 [Test worker] INFO  - Element By.xpath: //input[@class='js-confirm full negate'] found.
+13:09:34.167 [Test worker] INFO  - Start search element By.xpath: //a[@class='quiet js-delete']
+13:09:34.186 [Test worker] INFO  - Element By.xpath: //a[@class='quiet js-delete'] found.
+13:09:34.249 [Test worker] INFO  - Start search element By.xpath: //input[@class='js-confirm full negate']
+13:09:34.261 [Test worker] INFO  - Element By.xpath: //input[@class='js-confirm full negate'] found.
+13:09:35.313 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+13:09:35.339 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+13:09:36.398 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+13:09:36.417 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+13:09:37.513 [Test worker] INFO  - Start search element By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+13:09:37.527 [Test worker] INFO  - Element By.xpath: //*[@class='icon-lg icon-member']/../../..//li found.
+Boards before deleting: 4
+Boards after deleting: 3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

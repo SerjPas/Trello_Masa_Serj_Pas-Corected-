@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.tests.test.TestLogIn" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-15T10:08:06" hostname="Zateynik" time="3.997">
+  <properties/>
+  <testcase name="loginTest" classname="com.telran.tests.test.TestLogIn" time="3.997"/>
+  <system-out><![CDATA[13:08:06.690 [Test worker] INFO  - Start search element By.cssSelector: [href='/login']
+13:08:06.712 [Test worker] INFO  - Element By.cssSelector: [href='/login'] found.
+13:08:06.790 [Test worker] INFO  - Start search element By.id: user
+13:08:08.068 [Test worker] INFO  - Element By.id: user found.
+13:08:08.112 [Test worker] INFO  - Start search element By.id: user
+13:08:08.123 [Test worker] INFO  - Element By.id: user found.
+13:08:08.150 [Test worker] INFO  - Start search element By.id: user
+13:08:08.160 [Test worker] INFO  - Element By.id: user found.
+13:08:08.236 [Test worker] INFO  - Start search element By.id: password
+13:08:08.253 [Test worker] INFO  - Element By.id: password found.
+13:08:08.326 [Test worker] INFO  - Start search element By.id: password
+13:08:08.338 [Test worker] INFO  - Element By.id: password found.
+13:08:08.360 [Test worker] INFO  - Start search element By.id: password
+13:08:08.371 [Test worker] INFO  - Element By.id: password found.
+13:08:08.456 [Test worker] INFO  - Start search element By.id: login
+13:08:08.467 [Test worker] INFO  - Element By.id: login found.
+13:08:10.527 [Test worker] INFO  - Start search element By.cssSelector: .js-open-header-member-menu
+13:08:10.677 [Test worker] INFO  - Element By.cssSelector: .js-open-header-member-menu found.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
