@@ -1,6 +1,5 @@
 package com.telran.tests.fw;
-
-import com.telran.tests.test.TestCreateBoard;
+import com.telran.tests.fw.ApplicationManager;
 import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,18 +15,20 @@ import java.util.Arrays;
 public class TestBase {
   Logger logger = LoggerFactory.getLogger(TestBase.class);
 
-  public  static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
+  public  static ApplicationManager app =
+          new ApplicationManager(
+                  System.getProperty("browser", BrowserType.CHROME));
 
-  @BeforeMethod
+  @BeforeMethod(alwaysRun = true)
   public void startLogger(Method method, Object [] parametrs){
-    logger.info("Start Log" + method.getName() + "with parametrs " + Arrays.asList());
+    logger.info("Start Log" + method.getName() +
+            "with parametrs " + Arrays.asList(parametrs));
   }
-  @AfterMethod
+  @AfterMethod(alwaysRun = true)
   public void stopLogger(Method method){
     logger.info("Stop Log" + method.getName());
+    logger.info("\n");
   }
-
-
   @BeforeSuite
   public void setUp() throws InterruptedException {
     app.init();

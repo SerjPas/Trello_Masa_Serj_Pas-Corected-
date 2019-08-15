@@ -1,6 +1,7 @@
 package com.telran.tests.fw;
-
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,44 +15,36 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-    String browser;
     SessionHelper session;
     BoardHelper board;
     TeamHelper team;
     HeaderPage header;
-    ProfileHelper profileHelper;
-
+    ProfileHelper profile;
     EventFiringWebDriver driver;
+    String browser;
 
-    /**
-     * Создаем MyListener для автоматизации регистрации событий в нашей програме
-     */
-
-    public class MyListener extends AbstractWebDriverEventListener {
-        BaseHelper baseHelper = new BaseHelper(driver);
+    public class MyListener extends AbstractWebDriverEventListener{
+        BaseHelper helper = new BaseHelper(driver);
         Logger logger = LoggerFactory.getLogger(MyListener.class);
 
         @Override
         public void beforeFindBy(By by, WebElement element, WebDriver driver) {
-            logger.info("Start search element " + by);
+            logger.info("Start search element " +by);
         }
 
         @Override
         public void afterFindBy(By by, WebElement element, WebDriver driver) {
-            logger.info("Element " + by + " found.");
+            logger.info("element " +  by +" found");
         }
 
         @Override
         public void onException(Throwable throwable, WebDriver driver) {
             logger.error(throwable.toString());
             try {
-                baseHelper.takeScreenshot();
+                helper.takeScreenshot();
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            /**
-             * ошибка будет преобразована в текст
-             */
         }
     }
 
@@ -59,44 +52,33 @@ public class ApplicationManager {
         this.browser = browser;
     }
 
+
     public void init() throws InterruptedException {
 
         if (browser.equals(BrowserType.CHROME)) {
-            /**
-             * сначала строим new EventFiringWebDriver - это регистратор который помагает автоматизировать лог
-             * и внутри его уже new ChromeDriver()
-             */
             driver = new EventFiringWebDriver(new ChromeDriver());
         } else if (browser.equals(BrowserType.FIREFOX)) {
-            driver = new EventFiringWebDriver(new FirefoxDriver());
+            driver = new EventFiringWebDriver( new FirefoxDriver());
         } else if (browser.equals(BrowserType.EDGE)) {
             driver = new EventFiringWebDriver(new EdgeDriver());
-        } else {
-            System.err.println("Unknown browser");
         }
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().window().maximize(); // full size screen
 
         driver.navigate().to("https://trello.com");
         session = new SessionHelper(driver);
         board = new BoardHelper(driver);
         team = new TeamHelper(driver);
         header = new HeaderPage(driver);
-        profileHelper = new ProfileHelper(driver);
-
+        profile =  new ProfileHelper(driver);
 
         driver.register(new MyListener());
-
         session.login("passergiy@gmail.com", "7s9guYtfP7DRH5M");
     }
 
-    public void stop() {
-        //driver.quit();
-    }
 
-    public ProfileHelper getProfileHelper() {
-        return profileHelper;
+    public void stop() {
+        driver.quit();
     }
 
     public SessionHelper getSession() {
@@ -115,7 +97,12 @@ public class ApplicationManager {
         return header;
     }
 
+    public ProfileHelper getProfile() {
+        return profile;
+    }
+
     public String getUrl() {
         return driver.getCurrentUrl();
     }
+
 }

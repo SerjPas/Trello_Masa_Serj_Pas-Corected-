@@ -1,5 +1,6 @@
 package com.telran.tests.fw;
 
+
 import com.telran.tests.model.Team;
 import org.testng.annotations.DataProvider;
 
@@ -12,27 +13,19 @@ import java.util.Iterator;
 import java.util.List;
 
 public class DataProviders {
-    /**
-     * для роботы csv файла и подтягивания информации с него
-     * creation of dataprovider
-     */
-
     @DataProvider
     public Iterator<Object[]> teams() throws IOException {
         List<Object[]> list = new ArrayList<>();
-        /**
-         * BufferedReader reader умеет читать строки в отличии от Reader reader
-         */
-
-        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/Teamdata.csv")));
-        String line = reader.readLine(); // считываем информацию с файла и передаем в строку line
-        while (line != null){ // покак line не равен null
-            String[] split = line.split(","); //создали масив строк и передаем в него информацию ввели розделитель по ","
-
-            list.add(new Object[]{new Team().setTeamName(split[0]).setDescription(split[1])});
-
-            line = reader.readLine();// опять читаем есть ли линия
-        }// выходим из цыкла
+        BufferedReader reader = new BufferedReader (new FileReader(
+                new File("C:\\Users\\Passe\\OneDrive\\Documents\\GitHub\\Trello_Masa_Serj_Pas(Corected)\\trello-web\\src\\test\\resources\\teamdata.csv")));
+        String line = reader.readLine();
+        while (line!= null) {
+            String[] split = line.split(",");
+            list.add(new Object[]{new Team()
+                    .setTeamName(split[0])
+                    .setDescription(split[1])});
+            line = reader.readLine();
+        }
         return list.iterator();
     }
 
