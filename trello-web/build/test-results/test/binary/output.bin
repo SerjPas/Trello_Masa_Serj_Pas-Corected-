@@ -1,18 +1,38 @@
-Y15:21:45.625 [Test worker] INFO  - Start search element By.cssSelector: [href='/login']
-S15:21:45.638 [Test worker] INFO  - Element By.cssSelector: [href='/login'] found.
-E15:21:45.700 [Test worker] INFO  - Start search element By.id: user
-?15:21:46.824 [Test worker] INFO  - Element By.id: user found.
-E15:21:46.891 [Test worker] INFO  - Start search element By.id: user
-?15:21:46.909 [Test worker] INFO  - Element By.id: user found.
-E15:21:46.942 [Test worker] INFO  - Start search element By.id: user
-?15:21:46.954 [Test worker] INFO  - Element By.id: user found.
-I15:21:47.061 [Test worker] INFO  - Start search element By.id: password
-C15:21:47.072 [Test worker] INFO  - Element By.id: password found.
-I15:21:47.129 [Test worker] INFO  - Start search element By.id: password
-C15:21:47.144 [Test worker] INFO  - Element By.id: password found.
-I15:21:47.166 [Test worker] INFO  - Start search element By.id: password
-C15:21:47.176 [Test worker] INFO  - Element By.id: password found.
-F15:21:47.247 [Test worker] INFO  - Start search element By.id: login
-@15:21:47.257 [Test worker] INFO  - Element By.id: login found.
-e15:21:49.325 [Test worker] INFO  - Start search element By.cssSelector: .js-open-header-member-menu
-_15:21:59.382 [Test worker] INFO  - Element By.cssSelector: .js-open-header-member-menu found.
+Y13:05:54.881 [Test worker] INFO  - Start search element By.cssSelector: [href='/login']
+S13:05:54.892 [Test worker] INFO  - Element By.cssSelector: [href='/login'] found.
+E13:05:54.962 [Test worker] INFO  - Start search element By.id: user
+?13:05:56.207 [Test worker] INFO  - Element By.id: user found.
+E13:05:56.277 [Test worker] INFO  - Start search element By.id: user
+?13:05:56.290 [Test worker] INFO  - Element By.id: user found.
+E13:05:56.313 [Test worker] INFO  - Start search element By.id: user
+?13:05:56.324 [Test worker] INFO  - Element By.id: user found.
+I13:05:56.409 [Test worker] INFO  - Start search element By.id: password
+C13:05:56.420 [Test worker] INFO  - Element By.id: password found.
+I13:05:56.471 [Test worker] INFO  - Start search element By.id: password
+C13:05:56.484 [Test worker] INFO  - Element By.id: password found.
+I13:05:56.516 [Test worker] INFO  - Start search element By.id: password
+C13:05:56.527 [Test worker] INFO  - Element By.id: password found.
+F13:05:56.598 [Test worker] INFO  - Start search element By.id: login
+@13:05:56.608 [Test worker] INFO  - Element By.id: login found.
+e13:05:58.668 [Test worker] INFO  - Start search element By.cssSelector: .js-open-header-member-menu
+_13:06:08.721 [Test worker] INFO  - Element By.cssSelector: .js-open-header-member-menu found.
+x13:06:09.731 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+Ð13:06:19.783 [Test worker] ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"nav.home-left-sidebar-container .js-react-root"}
+'  (Session info: chrome=76.0.3809.100)
+jFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+UBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+‹System info: host: 'ZATEYNIK', ip: '192.168.191.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+5Driver info: org.openqa.selenium.chrome.ChromeDriver
+¤Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Passe\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+-Session ID: d736bf0abab74fb38fc96023d20dcc50
+^*** Element info: {Using=css selector, value=nav.home-left-sidebar-container .js-react-root}
+Z13:06:20.178 [Test worker] INFO  - _____________________________________________________
+R13:06:20.178 [Test worker] INFO  -  Screenshot name: screenshot1565863580168.png
+x13:06:21.181 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+Ð13:06:31.209 [Test worker] ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"nav.home-left-sidebar-container .js-react-root"}
+'  (Session info: chrome=76.0.3809.100)
+jFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+UBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+‹System info: host: 'ZATEYNIK', ip: '192.168.191.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+5Driver info: org.openqa.selenium.chrome.ChromeDriver
+¤Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Passe\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50460}, jav

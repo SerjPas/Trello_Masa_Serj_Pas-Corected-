@@ -1,0 +1,84 @@
+13:05:46.569 [Test worker] INFO  - Start search element By.cssSelector: [href='/login']
+13:05:46.592 [Test worker] INFO  - Element By.cssSelector: [href='/login'] found.
+13:05:46.663 [Test worker] INFO  - Start search element By.id: user
+13:05:48.588 [Test worker] INFO  - Element By.id: user found.
+13:05:48.701 [Test worker] INFO  - Start search element By.id: user
+13:05:48.715 [Test worker] INFO  - Element By.id: user found.
+13:05:48.738 [Test worker] INFO  - Start search element By.id: user
+13:05:48.750 [Test worker] INFO  - Element By.id: user found.
+13:05:48.827 [Test worker] INFO  - Start search element By.id: password
+13:05:48.843 [Test worker] INFO  - Element By.id: password found.
+13:05:48.898 [Test worker] INFO  - Start search element By.id: password
+13:05:48.910 [Test worker] INFO  - Element By.id: password found.
+13:05:48.933 [Test worker] INFO  - Start search element By.id: password
+13:05:48.943 [Test worker] INFO  - Element By.id: password found.
+13:05:49.013 [Test worker] INFO  - Start search element By.id: login
+13:05:49.029 [Test worker] INFO  - Element By.id: login found.
+13:05:50.104 [Test worker] INFO  - Start LogloginTestwith parametrs []
+13:05:50.104 [Test worker] INFO  - Start search element By.cssSelector: .js-open-header-member-menu
+13:05:53.064 [Test worker] INFO  - Element By.cssSelector: .js-open-header-member-menu found.
+13:05:53.064 [Test worker] INFO  - Start search element By.cssSelector: .js-open-header-member-menu
+13:05:53.082 [Test worker] INFO  - Element By.cssSelector: .js-open-header-member-menu found.
+13:05:53.155 [Test worker] INFO  - Start search element By.xpath: //*[@data-test-id='header-member-menu-logout']
+13:05:53.171 [Test worker] INFO  - Element By.xpath: //*[@data-test-id='header-member-menu-logout'] found.
+13:05:54.881 [Test worker] INFO  - Start search element By.cssSelector: [href='/login']
+13:05:54.892 [Test worker] INFO  - Element By.cssSelector: [href='/login'] found.
+13:05:54.962 [Test worker] INFO  - Start search element By.id: user
+13:05:56.207 [Test worker] INFO  - Element By.id: user found.
+13:05:56.277 [Test worker] INFO  - Start search element By.id: user
+13:05:56.290 [Test worker] INFO  - Element By.id: user found.
+13:05:56.313 [Test worker] INFO  - Start search element By.id: user
+13:05:56.324 [Test worker] INFO  - Element By.id: user found.
+13:05:56.409 [Test worker] INFO  - Start search element By.id: password
+13:05:56.420 [Test worker] INFO  - Element By.id: password found.
+13:05:56.471 [Test worker] INFO  - Start search element By.id: password
+13:05:56.484 [Test worker] INFO  - Element By.id: password found.
+13:05:56.516 [Test worker] INFO  - Start search element By.id: password
+13:05:56.527 [Test worker] INFO  - Element By.id: password found.
+13:05:56.598 [Test worker] INFO  - Start search element By.id: login
+13:05:56.608 [Test worker] INFO  - Element By.id: login found.
+13:05:58.668 [Test worker] INFO  - Start search element By.cssSelector: .js-open-header-member-menu
+13:06:08.721 [Test worker] INFO  - Element By.cssSelector: .js-open-header-member-menu found.
+13:06:08.724 [Test worker] INFO  - Stop LogloginTest
+13:06:08.730 [Test worker] INFO  - Start LogcreateTeamFromHeaderTestWithDataProviderTestwith parametrs []
+13:06:09.731 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+13:06:19.783 [Test worker] ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"nav.home-left-sidebar-container .js-react-root"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ZATEYNIK', ip: '192.168.191.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Passe\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d736bf0abab74fb38fc96023d20dcc50
+*** Element info: {Using=css selector, value=nav.home-left-sidebar-container .js-react-root}
+13:06:20.178 [Test worker] INFO  - _____________________________________________________
+13:06:20.178 [Test worker] INFO  -  Screenshot name: screenshot1565863580168.png
+13:06:20.179 [Test worker] INFO  - Stop LogcreateTeamFromHeaderTestWithDataProviderTest
+13:06:20.181 [Test worker] INFO  - Start LogcreateTeamFromHeaderTestWithDataProviderTestwith parametrs []
+13:06:21.181 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+13:06:31.209 [Test worker] ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"nav.home-left-sidebar-container .js-react-root"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ZATEYNIK', ip: '192.168.191.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Passe\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d736bf0abab74fb38fc96023d20dcc50
+*** Element info: {Using=css selector, value=nav.home-left-sidebar-container .js-react-root}
+13:06:31.562 [Test worker] INFO  - _____________________________________________________
+13:06:31.562 [Test worker] INFO  -  Screenshot name: screenshot1565863591561.png
+13:06:31.563 [Test worker] INFO  - Stop LogcreateTeamFromHeaderTestWithDataProviderTest
+13:06:31.563 [Test worker] INFO  - Start LogcreateTeamFromHeaderTestWithDataProviderTestwith parametrs []
+13:06:32.565 [Test worker] INFO  - Start search element By.cssSelector: nav.home-left-sidebar-container .js-react-root
+13:06:37.866 [Test worker] ERROR - org.openqa.selenium.NoSuchElementException: Cannot locate an element using css selector=nav.home-left-sidebar-container .js-react-root
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ZATEYNIK', ip: '192.168.191.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: driver.version: EventFiringWebDriver
+13:06:51.882 [Test worker] ERROR - org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ZATEYNIK', ip: '192.168.191.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Passe\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d736bf0abab74fb38fc96023d20dcc50

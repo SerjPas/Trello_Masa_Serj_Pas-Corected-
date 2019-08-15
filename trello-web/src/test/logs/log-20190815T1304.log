@@ -1,0 +1,34 @@
+13:05:06.889 [Test worker] INFO  - Start search element By.cssSelector: [href='/login']
+13:05:06.911 [Test worker] INFO  - Element By.cssSelector: [href='/login'] found.
+13:05:06.992 [Test worker] INFO  - Start search element By.id: user
+13:05:09.050 [Test worker] INFO  - Element By.id: user found.
+13:05:09.159 [Test worker] INFO  - Start search element By.id: user
+13:05:09.172 [Test worker] INFO  - Element By.id: user found.
+13:05:09.195 [Test worker] INFO  - Start search element By.id: user
+13:05:09.206 [Test worker] INFO  - Element By.id: user found.
+13:05:09.285 [Test worker] INFO  - Start search element By.id: password
+13:05:09.304 [Test worker] INFO  - Element By.id: password found.
+13:05:09.350 [Test worker] INFO  - Start search element By.id: password
+13:05:09.361 [Test worker] INFO  - Element By.id: password found.
+13:05:09.383 [Test worker] INFO  - Start search element By.id: password
+13:05:09.393 [Test worker] INFO  - Element By.id: password found.
+13:05:09.458 [Test worker] INFO  - Start search element By.id: login
+13:05:09.473 [Test worker] INFO  - Element By.id: login found.
+13:05:10.559 [Test worker] INFO  - Start LogchangeAvatarTestwith parametrs []
+13:05:13.650 [Test worker] INFO  - _____________________________________________________
+13:05:13.651 [Test worker] INFO  -  Screenshot name: screenshot1565863513637.png
+13:05:13.651 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id="header-member-menu-button"]
+13:05:13.683 [Test worker] INFO  - Element By.cssSelector: [data-test-id="header-member-menu-button"] found.
+13:05:13.760 [Test worker] INFO  - Start search element By.cssSelector: [data-test-id='header-member-menu-profile']
+13:05:13.776 [Test worker] INFO  - Element By.cssSelector: [data-test-id='header-member-menu-profile'] found.
+13:05:15.863 [Test worker] INFO  - Start search element By.xpath: //div[@class='rsiNque2CCqtPE']
+13:05:15.907 [Test worker] INFO  - Element By.xpath: //div[@class='rsiNque2CCqtPE'] found.
+13:05:16.068 [Test worker] INFO  - Start search element By.xpath: //*[@name='file']
+13:05:16.086 [Test worker] INFO  - Element By.xpath: //*[@name='file'] found.
+13:05:19.124 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+13:05:19.162 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+13:05:20.244 [Test worker] INFO  - Start search element By.cssSelector: a [name=house]
+13:05:20.262 [Test worker] INFO  - Element By.cssSelector: a [name=house] found.
+13:05:20.781 [Test worker] INFO  - _____________________________________________________
+13:05:20.782 [Test worker] INFO  -  Screenshot name: screenshot1565863520780.png
+13:05:20.782 [Test worker] INFO  - Stop LogchangeAvatarTest
