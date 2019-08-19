@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/superScheduler-mobile.iml" filepath="$PROJECT_DIR$/.idea/modules/superScheduler-mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/superScheduler-mobile.main.iml" filepath="$PROJECT_DIR$/.idea/modules/superScheduler-mobile.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/superScheduler-mobile.test.iml" filepath="$PROJECT_DIR$/.idea/modules/superScheduler-mobile.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-mobile.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-mobile.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-mobile.main.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-mobile.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-mobile.test.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-mobile.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web_main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web_test.iml" />
     </modules>
   </component>
 </project>
