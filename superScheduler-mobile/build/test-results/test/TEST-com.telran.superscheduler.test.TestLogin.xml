@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.superscheduler.test.TestLogin" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-22T10:11:05" hostname="Zateynik" time="21.775">
+  <properties/>
+  <testcase name="testLogin" classname="com.telran.superscheduler.test.TestLogin" time="21.775"/>
+  <system-out><![CDATA[13:11:05.822 [Test worker] INFO   - Start LogtestLoginwith parametrs []
+13:11:27.604 [Test worker] INFO   - Stop LogtestLogin
+13:11:27.604 [Test worker] INFO   - 
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

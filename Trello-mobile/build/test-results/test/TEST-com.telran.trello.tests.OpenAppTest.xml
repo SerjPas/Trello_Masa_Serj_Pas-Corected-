@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.trello.tests.OpenAppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-22T09:09:10" hostname="Zateynik" time="6.29">
+<testsuite name="com.telran.trello.tests.OpenAppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-22T09:26:32" hostname="Zateynik" time="6.889">
   <properties/>
-  <testcase name="openApp" classname="com.telran.trello.tests.OpenAppTest" time="6.29"/>
-  <system-out><![CDATA[12:09:10.409 [Test worker] INFO   - Start openApp with parameters []
+  <testcase name="openApp" classname="com.telran.trello.tests.OpenAppTest" time="6.889"/>
+  <system-out><![CDATA[12:26:32.319 [Test worker] INFO   - Start openApp with parameters []
 app opened
-12:09:16.703 [Test worker] INFO   - Stop openApp
-12:09:16.704 [Test worker] INFO   - 
+12:26:39.212 [Test worker] INFO   - Stop openApp
+12:26:39.213 [Test worker] INFO   - 
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
