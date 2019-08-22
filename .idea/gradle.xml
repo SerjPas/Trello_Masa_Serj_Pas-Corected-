@@ -4,7 +4,17 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="disableWrapperSourceDistributionNotification" value="true" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Trello-mobile" />
+        <option name="gradleHome" value="C:/tools/gradle-5.5.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Trello-mobile" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/superScheduler-mobile" />
         <option name="gradleHome" value="C:/tools/gradle-5.5.1" />
@@ -13,22 +23,6 @@
             <option value="$PROJECT_DIR$/superScheduler-mobile" />
           </set>
         </option>
-        <option name="useAutoImport" value="true" />
-        <option name="useQualifiedModuleNames" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="disableWrapperSourceDistributionNotification" value="true" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/trello-mobile" />
-        <option name="gradleHome" value="C:/tools/gradle-5.5.1" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/trello-mobile" />
-          </set>
-        </option>
-        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>

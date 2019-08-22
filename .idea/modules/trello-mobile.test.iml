@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="trello-mobile:test" external.linked.project.path="$MODULE_DIR$/../../trello-mobile" external.root.project.path="$MODULE_DIR$/../../trello-mobile" external.system.id="GRADLE" external.system.module.group="telran" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../trello-mobile" rootProjectPath="$MODULE_DIR$/../../trello-mobile" />
+<module external.linked.project.id="Trello-mobile:test" external.linked.project.path="$MODULE_DIR$/../../Trello-mobile" external.root.project.path="$MODULE_DIR$/../../Trello-mobile" external.system.id="GRADLE" external.system.module.group="telran" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../trello-mobile/build/classes/java/test" />
+    <output-test url="file://$MODULE_DIR$/../../Trello-mobile/build/classes/java/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../trello-mobile/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../trello-mobile/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../trello-mobile/src/test/resources" type="java-test-resource" />
+    <content url="file://$MODULE_DIR$/../../Trello-mobile/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../Trello-mobile/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Trello-mobile/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="trello-mobile.main" />
-    <orderEntry type="library" name="Gradle: io.appium:java-client:7.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-java:4.0.0-alpha-1" level="project" />
+    <orderEntry type="module" module-name="Trello-mobile.main" />
     <orderEntry type="library" name="Gradle: org.testng:testng:6.14.3" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.appium:java-client:7.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.beust:jcommander:1.72" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache-extras.beanshell:bsh:2.0b6" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.26" level="project" />
+    <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-java:4.0.0-alpha-1" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-support:4.0.0-alpha-1" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-chrome-driver:4.0.0-alpha-1" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-edge-driver:4.0.0-alpha-1" level="project" />
@@ -25,15 +33,6 @@
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-firefox-driver:4.0.0-alpha-1" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-remote-driver:4.0.0-alpha-1" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-api:4.0.0-alpha-1" level="project" />
-    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.9.12" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.commons:commons-exec:1.3" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.guava:guava:27.1-jre" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.14.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.17.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.beust:jcommander:1.72" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache-extras.beanshell:bsh:2.0b6" level="project" />
-    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.26" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.5" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.8" level="project" />
     <orderEntry type="library" name="Gradle: cglib:cglib:3.2.10" level="project" />
@@ -54,6 +53,10 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.9.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-exec:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:27.1-jre" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.14.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.ant:ant-launcher:1.10.3" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:failureaccess:1.0.1" level="project" />
@@ -63,6 +66,7 @@
     <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.j2objc:j2objc-annotations:1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.17" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.17.2" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="trello-mobile.main" />
+  <component name="TestModuleProperties" production-module="Trello-mobile.main" />
 </module>

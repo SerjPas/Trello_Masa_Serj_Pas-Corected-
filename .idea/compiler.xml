@@ -4,12 +4,18 @@
     <bytecodeTargetLevel>
       <module name="superScheduler-mobile.main" target="1.8" />
       <module name="superScheduler-mobile.test" target="1.8" />
+      <module name="Trello-mobile-new.main" target="1.8" />
+      <module name="Trello-mobile-new.test" target="1.8" />
       <module name="trello-mobile.main" target="1.8" />
+      <module name="Trello-mobile.main" target="1.8" />
+      <module name="Trello-mobile.test" target="1.8" />
       <module name="trello-mobile.test" target="1.8" />
       <module name="trello-web.main" target="1.8" />
       <module name="trello-web.test" target="1.8" />
       <module name="trello-web_main" target="1.8" />
       <module name="trello-web_test" target="1.8" />
+      <module name="trello_mobile_new.main" target="1.8" />
+      <module name="trello_mobile_new.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
